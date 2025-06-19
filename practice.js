@@ -10,13 +10,13 @@ console.log("Current Year:", currentYear);
 console.log("Age:", age);
 
 //Variables with Numbers
-let num1 = 10;
-let num2 = 5;
+// let num1 = 10;
+// let num2 = 5;
 
-console.log("Sum:", num1+num2);
-console.log("Difference:", num1-num2);
-console.log("Product:", num1*num2);
-console.log("Quotient:", num1/num2);
+// console.log("Sum:", num1+num2);
+// console.log("Difference:", num1-num2);
+// console.log("Product:", num1*num2);
+// console.log("Quotient:", num1/num2);
 
 //Conditional Statement
 // let marks = Number(prompt("Please enter your marks:"));
@@ -76,13 +76,13 @@ console.log("Quotient:", num1/num2);
 
 // console.log("Correct! You guessed it!");
 
-let n = Number(prompt("Please enter the number:"));
+// let n = Number(prompt("Please enter the number:"));
 
-for(let i = 1; i <= n; i++){
-    if(i%2 === 0){
-        console.log(i, "Even");
-    }else {
-        console.log(i, "Odd");
-    }
-}
+// for(let i = 1; i <= n; i++){
+//     if(i%2 === 0){
+//         console.log(i, "Even");
+//     }else {
+//         console.log(i, "Odd");
+//     }
+// }
 
