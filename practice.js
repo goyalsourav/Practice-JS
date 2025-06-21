@@ -86,3 +86,63 @@ console.log("Age:", age);
 //     }
 // }
 
+// String Manipulation (reverse the string)
+
+// function reverseString(str) {
+//     return str.split('').reverse().join('');
+// }
+
+// console.log(reverseString("Hello"));
+
+// function reverseString(str){
+//     let reversedString = "";
+
+//     for(let i = str.length-1 ; i >= 0 ; i--){
+//         reversedString += str[i];
+//     }
+
+//     return reversedString;
+// }
+
+// console.log(reverseString("sourav"));
+
+// Array Sum
+
+// function sumArray(arr){
+//     let sum = 0;
+//     for(let n of arr){
+//         sum += n;
+//     }
+//     return sum;
+// }
+
+// console.log(sumArray([1,2,3,4,5,10]));
+
+// largest number in the array
+
+// let numbers = [12,190,2,450,70,3,16,35];
+
+// let largestNumber = numbers[0];
+
+// for(let i = 1 ; i < numbers.length ; i++){
+//     if(largestNumber < numbers[i]){
+//         largestNumber = numbers[i];
+//     }
+// }
+
+// console.log(largestNumber);
+
+// let largestNum = Math.max(...numbers);
+// console.log(largestNum);
+
+// let str = "My name is sourav goyal.";
+// console.log(str.replaceAll(" ", "-"));
+// console.log(str.toUpperCase());
+// console.log(str.toLowerCase());
+
+// function welcomeMsg(name){
+//     return `Hello ${name}, Welcome to the Frontend Developing.`;
+// }
+
+// console.log(welcomeMsg("Sourav")); 
+
