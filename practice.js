@@ -146,3 +146,44 @@ console.log("Age:", age);
 
 // console.log(welcomeMsg("Sourav")); 
 
+// let arr = [1,8,3,4];
+
+// const out = arr.reduce((prev,curr) => {
+//     return prev > curr ? prev : curr ;
+// })
+
+// console.log(out);
+
+// function double(arr){
+//     return arr.map(num => num*2);
+// }
+
+// console.log(double([1,2,3,4]));
+
+//Count Vowels
+
+// function countVowels(str){
+//     let vowels = "aeiou";
+//     let count = 0;
+//     for(let char of str){
+//         if(vowels.includes(char)){
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+
+// console.log(countVowels("Helloo World"));
+
+// Prime Number
+
+// function findPrime(n){
+//     if(n<2) return false;
+//     for(let i = 2; i < Math.sqrt(n) ; i++){
+//         if(n%i === 0) return false;
+//     }
+//     return true;
+// }
+
+// console.log(findPrime(10));
+
