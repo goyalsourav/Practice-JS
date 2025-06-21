@@ -187,3 +187,36 @@ console.log("Age:", age);
 
 // console.log(findPrime(10));
 
+//Object
+
+// let car = {
+//     make : "Toyota",
+//     model : "Fortuner",
+//     year : 2025
+// };
+
+// console.log(car.make);
+
+// function objPrint(obj){
+//     for(let key in obj){
+//        console.log(`${key}: ${obj[key]}`);
+//     }
+// }
+
+// objPrint(car);
+
+// function longestWord(sentence) {
+//   let words = sentence.split(' ');
+//   let longest = "";
+//   for (let word of words) {
+//     let cleanWord = word.replace(/[^a-zA-Z]/g, "");
+//     if (cleanWord.length >= longest.length) {
+//       longest = cleanWord;
+//     }
+//   }
+//   return longest;
+// }
+
+// console.log(longestWord("The quick brown fox jumps over the lazy dog"));
+// // Output: "jumps"
+
