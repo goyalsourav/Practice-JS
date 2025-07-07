@@ -1,13 +1,13 @@
-console.log("Practice");
+// console.log("Practice");
 
-//Variables
-let fullName = "Sourav Goyal";
-let currentYear = 2025;
-let age = 27;
+// //Variables
+// let fullName = "Sourav Goyal";
+// let currentYear = 2025;
+// let age = 27;
 
-console.log("Full Name:", fullName);
-console.log("Current Year:", currentYear);
-console.log("Age:", age);
+// console.log("Full Name:", fullName);
+// console.log("Current Year:", currentYear);
+// console.log("Age:", age);
 
 //Variables with Numbers
 // let num1 = 10;
@@ -219,4 +219,153 @@ console.log("Age:", age);
 
 // console.log(longestWord("The quick brown fox jumps over the lazy dog"));
 // // Output: "jumps"
+
+//Swap Number
+
+// let a = 2;
+// let b = 5;
+
+// a = a + b;
+// b = a - b;
+// a = a - b;
+
+// console.log("a = ", a);
+// console.log("b = ", b);
+
+//Temperature Conversion c -> f
+
+// let celsius = Number(prompt("Please enter the celsius:"));
+// let fahrenheit = celsius*(9/5)+32;
+
+// console.log(fahrenheit);
+
+// let name = "Sourav";
+// let isCool = true;
+// let value = undefined;
+// let score = null;
+
+// console.log(typeof name);
+// console.log(typeof isCool);
+// console.log(typeof value);
+// console.log(typeof score);
+
+//Conditional
+
+// for(let i = 1; i <= 20; i++){
+//     if(i%3 == 0 && i%5 == 0){
+//         console.log("FizzBuzz");
+//     }else if(i%5 == 0){
+//         console.log("Buzz");
+//     }else if(i%3 == 0){
+//         console.log("Fizz");
+//     }else {
+//         console.log(i);
+//     }
+// }
+
+// Leap Year
+
+// let year = Number(prompt("Please enter the year: "));
+
+// if((year%4 == 0 && year%100 != 0) || year%400 == 0){
+//     console.log("It is a leap year.");
+// }else {
+//     console.log("It is not a leap year.");
+// }
+
+// continue : skips that number
+// for (let i = 1; i <= 10; i++) {
+//   if (i === 5) continue; // Skip 5
+//   if (i === 8) break;    // Stop at 8
+//   console.log(i);
+// }
+
+// let i = 1;
+// do {  
+//   console.log(i);
+//   i++;
+// } while (i <= 5);
+
+//sum of n numbers
+
+// let n = 10;
+// let sum = 0;
+
+// for(let i = 1; i <= n; i++){
+//     sum += i;
+// }
+
+// console.log(sum);
+
+// Factorial
+
+// let n = 5;
+// let f = 1;
+
+// for(let i = 1; i <= n; i++){
+//     f = f * i;
+// }
+
+// console.log(f);
+
+//Reverse the number
+
+// let n = 5678;
+// let rn = 0;
+// let ld = 0;
+
+// while(n>0){
+//     ld = n%10;
+//     rn = (rn*10) + ld;
+//     n = Math.floor(n/10);
+// }
+
+// console.log(rn);
+
+// Creating a pattern
+
+// for (let i = 1; i <= 4; i++) {
+//   let row = "";
+//   for (let j = 1; j <= i; j++) {
+//     row += "* ";
+//   }
+//   console.log(row);
+// }
+
+// for(let i = 1; i <= 4; i++){
+//     let row = "";
+//     for(let j = 1; j <= i; j++){
+//         row += `${j} `;
+//     }
+//     console.log(row);
+// }
+
+//Palindrome Number
+
+// let n = 132331;
+// let on = n;
+// let rn = 0;
+// let ld = 0;
+
+// while(n>0){
+//     ld = n%10;
+//     rn = (rn*10) + ld;
+//     n = Math.floor(n/10);
+// }
+
+// console.log(rn);
+// if(on === rn){
+//     console.log("Palindrome");
+// }else{
+//     console.log("Not a Palindrome");
+// }
+
+// Palindrome using function
+
+// function isPalindrome(par){
+//     let str = par.split('').reverse().join('');
+//     return par === str;
+// }
+
+// console.log(isPalindrome("maadam"));
 
