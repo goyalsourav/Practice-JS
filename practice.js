@@ -438,4 +438,54 @@
 // console.log(calculator(5, 2, "/")); // 2.5
 
 
+// let nums = [20,5,1,9,3,10,2];
+// let bigNum = nums[0];
+// for(let i = 1; i <= nums.length; i++){
+//     if(bigNum < nums[i]){
+//         bigNum = nums[i];
+//     }
+// }
 
+// console.log(bigNum);
+
+// let numbers = [100, 45, 67, 89, 3, 24];
+// let max = numbers.reduce((a, b) => a > b ? a : b);
+// console.log("Maximum:", max);  // Output: 89
+
+// let arr = [1,2,2,3,3,4,4,5];
+
+// for(let i = 0; i < arr.length; i++){
+//     let og = arr[i];
+//     for(let j = i+1; j < arr.length; j++){
+//         if(og == arr[j]){
+//             arr.splice(j,1);
+//             j--;
+//         }
+//     }
+// }
+
+// console.log(arr);
+
+// function removeDuplicate(arr){
+//     let result = [];
+//     for(let i = 0; i < arr.length; i++){
+//         if(!result.includes(arr[i])){
+//             result.push(arr[i]);
+//         }
+//     }
+//     return result;
+// }
+
+// console.log(removeDuplicate([1,2,2,3,3,4,4,5]));
+
+// let arr = [1,2,3,4,5,6,7,8,9];
+// let rev = [];
+// let sq = [];
+
+// for(let i = (arr.length-1); i >= 0; i--){
+//     rev.push(arr[i]);
+//     sq.unshift(arr[i]*arr[i]);
+// }
+
+// console.log(rev);
+// console.log(sq);
