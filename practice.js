@@ -369,3 +369,73 @@
 
 // console.log(isPalindrome("maadam"));
 
+// function longestWord(sent){
+//     let longWord = "";
+//     let words = sent.split(" "); //creates an array of the words separated
+//     console.log(words);
+//     for(word of words){
+//         console.log(word);
+//         let cleanWord = word.replace(/[^a-zA-z]/g, ' ');
+//         console.log(cleanWord);
+//         if(cleanWord.length >= longWord.length){
+//             longWord = word;
+//         }
+//     }
+//     return longWord;
+// }
+
+// console.log(longestWord("The qu@ick brown fox jumps"));
+
+// function countVowels(sent){
+//     let vowels = "aeiou";
+//     let count = 0;
+//     for(char of sent){
+//         console.log(char);
+//         if(vowels.includes(char)){
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+
+// console.log(countVowels("Heello Hello"));
+// console.log(countVowels("javascript"));
+
+// let longestWord = (sent) => {
+//     let longWord = "";
+//     let words = sent.split(" "); //creates an array of the words separated
+//     //console.log(words);
+//     for(word of words){
+//         //console.log(word);
+//         let cleanWord = word.replace(/[^a-zA-z]/g, ' ');
+//         //console.log(cleanWord);
+//         if(cleanWord.length >= longWord.length){
+//             longWord = word;
+//         }
+//     }
+//     return longWord;
+// }
+
+// console.log(longestWord("The quick brown fox jumps over the lazy dog"))
+
+// function calculator(a,b,op){
+//     switch (op) {
+//         case '+' :
+//             return a+b;
+//         case '-' :
+//             return a-b;
+//         case '*' :
+//             return a*b;
+//         case '/' :
+//             return b !== 0 ? a/b : "Cannot divide by zero.";
+//         default : 
+//             return "Invalid Operator."
+//     }
+// }
+
+// console.log(calculator(5, 2, "+")); // 7
+// console.log(calculator(5, 2, "*")); // 10
+// console.log(calculator(5, 2, "/")); // 2.5
+
+
+
