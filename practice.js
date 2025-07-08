@@ -489,3 +489,39 @@
 
 // console.log(rev);
 // console.log(sq);
+
+// Reverse a String
+// let str = 'Hello';
+// console.log(str.split('').reverse().join('')); //Using the methods
+// let rev = '';
+
+// for(let i = str.length-1; i >= 0; i--){  //Using the loop
+//     rev += str[i];
+// }
+
+// console.log(rev);
+
+// function isAnagram(srt1, str2){
+//     let cleanStr1 = srt1.toLowerCase().split('').sort().join('');
+//     let cleanStr2 = str2.toLowerCase().split('').sort().join('');
+//     return cleanStr1 === cleanStr2;
+// }
+
+// console.log(isAnagram("Listen", "Silent"));      
+// console.log(isAnagram("hello", "Olelh"));       
+// console.log(isAnagram("abb", "aab"));      
+
+// let str = "i am learning javascript";
+
+// //console.log(str.split(' ')); // splits word 
+// //console.log(str.split('')); // splits each character
+
+// let newStr = str.split(" ").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
+// console.log(newStr);
+
+// let str = "A man a plan a canal Panama";
+// let newStr = str.replace(/\s/g,'').toLowerCase().split('').reverse().join('');
+
+// console.log(str.toLowerCase().replace(/\s/g,''));
+// console.log(newStr);
+// console.log(str.toLowerCase().replace(/\s/g,'') == newStr);
